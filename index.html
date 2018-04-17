@@ -1,0 +1,19 @@
+<!-- Dependencies -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!-- Explorer Assets -->
+<link rel="stylesheet" href="https://d26b395fwzu5fz.cloudfront.net/apps/keen-explorer-3.2.0.min.css">
+<script src="https://d26b395fwzu5fz.cloudfront.net/apps/keen-explorer-3.2.0.min.js"></script>
+
+<div id="keen-explorer"></div>
+<script type="text/javascript">
+  var myExplorer = new Keen.Explorer.App('#keen-explorer')
+    .client({
+      projectId: "5ad53b33c9e77c00017c7f18",
+      readKey: "1E750240E2DC88FEC6AE0927C57A3152BF578C59D825A9FB9BAD96E230E8B0886C722FDD31852ED880058CF752C30D7D6EBAD67E968FA093E543BB70F9A03C84FFEC6DC76139B0C3AC9F208FC49818A557E1FCC906063DAC87551EFAF9758BA7",
+      masterKey: "6BE666010D0095D6DBBA5B6F290EE2307AEFF08647913A663B13B697463CC917"
+    })
+    .persistence(true)
+    .fetch();
+</script>
