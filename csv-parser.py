@@ -1,5 +1,5 @@
-import pandas as pd
 import math
+import pandas as pd
 
 df = pd.read_csv("Seasons_Stats.csv")
 
