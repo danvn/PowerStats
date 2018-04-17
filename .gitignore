@@ -9,3 +9,5 @@ node_modules
 test/unit/build/browserified_tests.*
 
 .idea/
+
+\.vscode/settings\.json
