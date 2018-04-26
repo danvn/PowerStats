@@ -521,6 +521,7 @@ for season in seasons:
     print(seasonTotal)
     seasonTotals.append(seasonTotal)
 
-client.add_events({
-  "LeBronJamesSeasonTotals": seasonTotals
-})
+print(seasonTotals)
+# client.add_events({
+#   "LeBronJamesSeasonTotals": seasonTotals
+# })
