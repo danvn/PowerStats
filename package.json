@@ -5,14 +5,15 @@
     "license": "MIT",
     "bucket-name": "keen-js",
     "scripts": {
-        "dev": ".\\node_modules\\webpack\\bin\\webpack.js --watch --color -d & gulp connect",
+        "dev": "./node_modules/webpack/bin/webpack.js --watch --color -d & gulp connect",
         "test": "npm run build && gulp test:unit",
-        "build": ".\\node_modules\\webpack\\bin\\webpack.js",
-        "minify": "SET NODE_ENV=production .\\node_modules\\webpack\\bin\\webpack.js -p",
-        "production": "npm run minify && yarn run test"
+        "build": "./node_modules/webpack/bin/webpack.js",
+        "minify": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
+        "production": "npm run minify && npm run test"
     },
     "dependencies": {
         "classnames": "2.1.2",
+        "csvtojson": "^1.1.12",
         "flux": "^2.0.3",
         "json-stable-stringify": "1.0.0",
         "keen-analysis": "1.2.2",
@@ -26,7 +27,8 @@
         "react-dom": "^0.14.3",
         "react-highlight": "^0.9.0",
         "rquery": "^3.1.1",
-        "string": "^2.0.1"
+        "string": "^2.0.1",
+        "yarn": "^1.6.0"
     },
     "browserify-shim": {
         "moment": "^2.7.0",

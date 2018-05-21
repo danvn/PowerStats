@@ -15,10 +15,10 @@ client = KeenClient(
 #   "JamesHarden_Season_Averages": playerEventCollection
 # })
 
-with open('nuggies.json') as json_data:
+with open('data/AllTeamsBoxScore_short3.json') as json_data:
     d = json.load(json_data)
 
 
 client.add_events({
-  "TheDenverNuggets": d
+  "All_Players_Box_Scores_17_18": d
 })
