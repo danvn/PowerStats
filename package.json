@@ -21,7 +21,7 @@
         "keymirror": "~0.1.0",
         "lodash": "4.0.0",
         "moment": "^2.7.0",
-        "qs": "2.2.3",
+        "qs": "6.0.4",
         "react": "^0.14.3",
         "react-addons-test-utils": "^0.14.3",
         "react-dom": "^0.14.3",
